@@ -1,0 +1,48 @@
+body{
+    background-color: #fefefa;
+    font-family: 'Montserrat';
+    color: rgb(0, 0, 42);
+    margin: 0;
+}
+
+.side{
+    display: block;
+    float: right;
+    margin-right: 70px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.num1{
+    background-color:rgb(95, 159, 214);
+    padding: 15px;
+}
+.num2{
+    margin-top: 50px;
+}
+
+button{
+    background-color: rgb(21, 51, 77);
+    border-radius: 3px;
+    border: 0;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.color{
+    color:aliceblue;
+    font-family: 'Montserrat';
+    font-size: medium;
+}
