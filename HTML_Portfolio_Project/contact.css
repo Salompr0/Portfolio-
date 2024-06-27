@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-    background: url("/drawings/computer-2583383_1280.jpg");
+    background: url("../drawings/computer-2583383_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
