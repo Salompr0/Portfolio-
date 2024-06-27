@@ -19,7 +19,6 @@ body{
     background-color: rgba(197, 228, 255, 0.704);
     padding-top: 1px;
     border-radius: 20px;
-    /*Add margin*/
     margin-right: 200px;
     margin-left: 200px;
 }
@@ -55,6 +54,14 @@ img{
     border-radius: 3px;  
     opacity: 1;
     transition: 0.3s ease;     
+}
+
+.change-width{
+    width: 500px;
+}
+
+.change-height{
+    height: 500px;
 }
 
 .linha1:hover img{
@@ -123,5 +130,17 @@ a{
         margin-left: 20px;
     }
 }
-/* min-width: 1110px max-width: 1460px*/
-/*add media query to change colored div (.container) size*/
+
+@media (max-width: 520px){
+    .change-width{
+        width: 300px;
+    }
+    
+    .change-height{
+        height: 270px;
+    }
+
+    .text{
+        font-size: small;
+    }
+}
