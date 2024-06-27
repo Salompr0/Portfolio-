@@ -91,11 +91,16 @@ button{
     }
 
     .side{
+        float: none;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
+        margin: 0;
+    }
+
+    .button{
         margin: 0;
     }
 }
