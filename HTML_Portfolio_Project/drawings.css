@@ -131,13 +131,18 @@ a{
     }
 }
 
-@media (max-width: 520px){
+@media (max-width: 520px){/*Add n Github*/
+    .container{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
     .change-width{
-        width: 300px;
+        width: 250px;
     }
     
     .change-height{
-        height: 270px;
+        height: 230px;
     }
 
     .text{
