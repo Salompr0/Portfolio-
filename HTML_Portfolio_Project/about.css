@@ -18,6 +18,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 hr{
@@ -45,4 +46,14 @@ button{
     color:aliceblue;
     font-family: 'Montserrat';
     font-size: medium;
+}
+
+@media (max-width: 510px){
+    .side{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
 }
