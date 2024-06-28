@@ -64,6 +64,10 @@ img{
     height: 500px;
 }
 
+.change-heightg{
+    height: 500px;
+}
+
 .linha1:hover img{
     opacity: 0.3;
 }
@@ -142,7 +146,12 @@ a{
     }
     
     .change-height{
-        height: 270px;
+        height: 300px;
+    }
+
+    .change-heightg{
+        width: 300px;
+        height: auto;
     }
 
     .text{
